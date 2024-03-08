@@ -14,8 +14,8 @@ const Header = () => {
   return (
     <Navbar className="shadow mb-6">
       <NavbarBrand>
-        <Link href="/" className="font-bold">
-          Discuss
+        <Link href="/" className="font-bold text-2xl">
+          <span className="text-warning">Dis</span>cuss
         </Link>
       </NavbarBrand>
       <NavbarContent justify="center">
